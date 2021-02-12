@@ -30,4 +30,7 @@
     <string name="thermal_navigation">Navigation</string>
     <string name="thermal_streaming">Streaming</string>
     <string name="thermal_video">Video</string>
+
+    <!-- Refresh Rate Settings -->
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
 </resources>
