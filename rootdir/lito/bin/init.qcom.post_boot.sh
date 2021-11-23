@@ -890,8 +890,6 @@ function configure_memory_parameters() {
     low_ram=`getprop ro.config.low_ram`
 
     if true; then
-        echo 0 > /proc/sys/vm/page-cluster
-
         #add memory limit to camera cgroup
         MemTotalStr=`cat /proc/meminfo | grep MemTotal`
         MemTotal=${MemTotalStr:16:8}
@@ -990,9 +988,7 @@ function configure_memory_parameters() {
     fi
 
     # Set allocstall_threshold to 0 for all targets.
-    # Set swappiness to 60 for all targets
     echo 0 > /sys/module/vmpressure/parameters/allocstall_threshold
-    echo 60 > /proc/sys/vm/swappiness
 
     # Disable wsf for all targets beacause we are using efk.
     # wsf Range : 1..1000 So set to bare minimum value 1.
