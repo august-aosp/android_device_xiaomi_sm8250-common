@@ -147,6 +147,13 @@ debug.sf.auto_latch_unsignaled=false
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 vendor.display.enable_perf_hint_large_comp_cycle=1
 
+# Display Refresh Rate
+ro.surface_flinger.set_idle_timer_ms?=4000
+ro.surface_flinger.set_touch_timer_ms?=4000
+ro.surface_flinger.set_display_power_timer_ms?=1000
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+vendor.display.defer_fps_frame_count?=2
+
 # Graphics
 debug.egl.hw=0
 debug.mdpcomp.logs=0
