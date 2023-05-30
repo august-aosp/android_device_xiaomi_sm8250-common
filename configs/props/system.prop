@@ -1,3 +1,6 @@
+# Adaptive Suspend
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Battery
 ro.config.small_battery=true
 
