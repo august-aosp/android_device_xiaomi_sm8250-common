@@ -69,7 +69,7 @@ vendor/lib64/libsdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
 # CNE - from LA.UM.9.12.r1-14200.02-SMxx50.QSSI12.0
--vendor/app/CneApp/CneApp.apk|2839a8643422182451935867c83454dc7503c22b
+-vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink|2839a8643422182451935867c83454dc7503c22b
 vendor/bin/cnd|f774d3a9e6ef476b9dc31fd9c9c00396f4fede7d
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
