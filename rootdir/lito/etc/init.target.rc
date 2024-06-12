@@ -296,3 +296,7 @@ service nv_mac /vendor/bin/nv_mac
     user system
     group system inet net_admin wifi net_raw
     oneshot
+
+on property:sys.boot_completed=1
+    # Disable native stats collection service
+    stop statsd
