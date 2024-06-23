@@ -86,6 +86,7 @@ TARGET_USES_VULKAN := true
 ifeq ($(TARGET_HAS_UDFPS),true)
 TARGET_USES_FOD_ZPOS := true
 endif
+TARGET_GRALLOC_HANDLE_HAS_RESERVED_SIZE := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
@@ -224,7 +225,7 @@ SOONG_CONFIG_PLATFORM_ROOTDIR_PLATFORM_TYPE := kona
 endif
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2023-06-01
+VENDOR_SECURITY_PATCH := 2024-06-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
