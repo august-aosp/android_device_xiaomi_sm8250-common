@@ -96,6 +96,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
+else
+AB_OTA_UPDATER := false
 endif
 
 # Audio
