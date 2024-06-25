@@ -219,6 +219,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
+# EPPE
+TARGET_DISABLE_EPPE := true
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
