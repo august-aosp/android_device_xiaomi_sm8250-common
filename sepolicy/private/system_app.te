@@ -1,3 +1,4 @@
+# Allow IFAAService access to Mlipay HAL
 hal_client_domain(system_app, hal_mlipay)
 
 get_prop(system_app, qemu_hw_prop)

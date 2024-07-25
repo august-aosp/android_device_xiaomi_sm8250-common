@@ -269,6 +269,13 @@ prebuilt_etc {
     vendor: true,
 }
 
+prebuilt_etc {
+    name: "init.logcat.rc",
+    src: "etc/init.logcat.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
 // fstab
 soong_config_module_type {
     name: "xiaomi_kona_rootdir_prebuilt_etc",
