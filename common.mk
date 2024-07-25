@@ -353,7 +353,8 @@ PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-im
 
 # Net
 PRODUCT_PACKAGES += \
-    android.system.net.netd@1.1.vendor
+    android.system.net.netd@1.1.vendor \
+    libnetutils
 
 # Neural networks
 PRODUCT_PACKAGES += \
@@ -391,7 +392,9 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_omx.vendor \
+    libstagefright_softomx_plugin.vendor
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -483,6 +486,12 @@ PRODUCT_PACKAGES += \
 else
 PRODUCT_PACKAGES += \
     init.xiaomi.rc
+endif
+
+# Build logcat module for debug
+ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
+PRODUCT_PACKAGES += \
+    init.logcat.rc
 endif
 
 # Sensors
