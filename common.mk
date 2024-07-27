@@ -194,6 +194,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libgui_vendor \
+    libpiex \
+    libpiex.vendor \
     libstdc++_vendor \
     libutilscallstack.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
