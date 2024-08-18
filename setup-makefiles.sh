@@ -56,6 +56,10 @@ function lib_to_package_fixup_vendor_variants() {
             vendor.qti.ims.rcsconfig@2.1)
             echo "${1}_vendor"
             ;;
+        libOmxCore | \
+            libgrallocutils | \
+            libwfdaac_vendor | \
+            libwpa_client) ;;
         *)
             return 1
             ;;
