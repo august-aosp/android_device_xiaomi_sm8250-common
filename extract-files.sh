@@ -63,6 +63,9 @@ function blob_fixup() {
         vendor/etc/media_codecs_kona.xml)
             sed -i "/media_codecs_dolby_audio.xml/d" "${2}"
             ;;
+        system_ext/lib/libwfdservice.so)
+            "${PATCHELF}" --replace-needed "android.media.audio.common.types-V2-cpp.so" "android.media.audio.common.types-V3-cpp.so" "${2}"
+            ;;
     esac
 }
 
