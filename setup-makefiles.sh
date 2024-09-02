@@ -36,6 +36,38 @@ function vendor_imports() {
 EOF
 }
 
+function lib_to_package_fixup_vendor_variants() {
+    if [ "$2" != "vendor" ]; then
+        return 1
+    fi
+
+    case "$1" in
+        com.qualcomm.qti.dpm.api@1.0 | \
+            libmmosal | \
+            vendor.qti.hardware.wifidisplaysession@1.0 | \
+            vendor.qti.imsrtpservice@3.0 | \
+            vendor.qti.ims.callcapability@1.0 | \
+            vendor.qti.ims.callinfo@1.0 | \
+            vendor.qti.ims.factory@1.0 | \
+            vendor.qti.ims.factory@1.1 | \
+            vendor.qti.ims.rcsconfig@1.0 | \
+            vendor.qti.ims.rcsconfig@1.1 | \
+            vendor.qti.ims.rcsconfig@2.0 | \
+            vendor.qti.ims.rcsconfig@2.1)
+            echo "${1}_vendor"
+            ;;
+        *)
+            return 1
+            ;;
+    esac
+}
+
+function lib_to_package_fixup() {
+    lib_to_package_fixup_clang_rt_ubsan_standalone "$1" ||
+        lib_to_package_fixup_proto_3_9_1 "$1" ||
+        lib_to_package_fixup_vendor_variants "$@"
+}
+
 # Initialize the helper for common
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
 

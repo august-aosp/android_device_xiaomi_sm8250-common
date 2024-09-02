@@ -188,7 +188,7 @@ system_ext/lib64/libdpmtcm.so|c2d5f16a39967553a867daf3a9831c7dd06c5b55
 system_ext/lib64/vendor.qti.diaghal@1.0.so|e1c608df6172b8d7c6ce71973a0936a13f1b6a45
 vendor/bin/dpmQmiMgr|df41c54776abef6edb12b1cd6d250abf5ea6c0a5
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ad06856903b163a28135d6c8fd354258e3f0292c
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor|ad06856903b163a28135d6c8fd354258e3f0292c
 vendor/lib64/libdpmqmihal.so|67a75d6bd39f4bc825e14d21fa5b61e26ac82b22
 
 # DRM (QSEECom)
@@ -429,16 +429,16 @@ vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so|533dcdc923a30e9dbf64f5a5537228
 vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so|125ad010503a3dbc43011fb1eb266b61889d871d
 vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so|00fa67519b0a60972a1f2f8f5e5918102bcb65ba
 vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so|1956aa53b3ebc082ce2afd28d3ced73bd9cd8aac
-vendor/lib64/vendor.qti.ims.callcapability@1.0.so|efe8d14572b59a655c7493324cfe867ed3e30508
-vendor/lib64/vendor.qti.ims.callinfo@1.0.so|cf99d583f657a2a6e680652076ce0cd5cd7c0fbd
-vendor/lib64/vendor.qti.ims.factory@1.0.so|98726ee70915c7ac09f1bf9001b5163ad579d159
-vendor/lib64/vendor.qti.ims.factory@1.1.so|5efc9d37b9d15e5c226ad0284373874417731208
-vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|3bae8214b67b8acc6f550021cc41ef7bbc9c7577
-vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so|80121b147db6f0fe29fd4cfeea31c16be4535044
-vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|ae076abbaadb744f81e171f1dbaed23b19b1c7e5
-vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|68d36a14afd9da80ff99d8d8e2c91b53268d2173
+vendor/lib64/vendor.qti.ims.callcapability@1.0.so;MODULE_SUFFIX=_vendor|efe8d14572b59a655c7493324cfe867ed3e30508
+vendor/lib64/vendor.qti.ims.callinfo@1.0.so;MODULE_SUFFIX=_vendor|cf99d583f657a2a6e680652076ce0cd5cd7c0fbd
+vendor/lib64/vendor.qti.ims.factory@1.0.so;MODULE_SUFFIX=_vendor|98726ee70915c7ac09f1bf9001b5163ad579d159
+vendor/lib64/vendor.qti.ims.factory@1.1.so;MODULE_SUFFIX=_vendor|5efc9d37b9d15e5c226ad0284373874417731208
+vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so;MODULE_SUFFIX=_vendor|3bae8214b67b8acc6f550021cc41ef7bbc9c7577
+vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so;MODULE_SUFFIX=_vendor|80121b147db6f0fe29fd4cfeea31c16be4535044
+vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so;MODULE_SUFFIX=_vendor|ae076abbaadb744f81e171f1dbaed23b19b1c7e5
+vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so;MODULE_SUFFIX=_vendor|68d36a14afd9da80ff99d8d8e2c91b53268d2173
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|846de8369304eaaf4b05ee948ca84298b39ace3e
-vendor/lib64/vendor.qti.imsrtpservice@3.0.so|6d4b854e7ba91ef98398568c365a131cf4c01c93
+vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor|6d4b854e7ba91ef98398568c365a131cf4c01c93
 
 # IRQ balance
 vendor/bin/msm_irqbalance
@@ -456,7 +456,7 @@ vendor/lib64/libspcom.so
 # Media
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
-vendor/lib/libmmosal.so
+vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
 
 # Mink-Lowi Interface daemon
 vendor/bin/mlid
@@ -836,5 +836,5 @@ vendor/lib/libwfduibcsinkinterface_proprietary.so
 vendor/lib/libwfduibcsrc_proprietary.so
 vendor/lib/libwfduibcsrcinterface_proprietary.so
 vendor/lib/libwfdutils_proprietary.so
-vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
+vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
