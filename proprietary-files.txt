@@ -17,6 +17,18 @@ vendor/lib64/vendor.qti.hardware.dsp@1.0.so|5c601246ffc04361a0d3703df6542ae409c8
 vendor/lib/libadsprpc.so
 vendor/lib64/libadsprpc.so
 
+# Audio
+vendor/lib/liba2dpoffload.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libbatterylistener.so
+vendor/lib/libcomprcapture.so
+vendor/lib/libexthwplugin.so
+vendor/lib/libhdmiedid.so
+vendor/lib/libhdmipassthru.so
+vendor/lib/libhfp.so
+vendor/lib/libsndmonitor.so
+vendor/lib/libspkrprot.so
+
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
