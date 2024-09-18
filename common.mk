@@ -465,9 +465,6 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Wi-Fi Display
-PRODUCT_PACKAGES += \
-    libwfdaac_vendor
-
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
