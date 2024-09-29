@@ -31,3 +31,5 @@ set_prop(vendor_init, vendor_radio_prop)
 allow init hal_fingerprint_default:process { ptrace };
 
 allow init sysfs_fastcharge:file { setattr };
+
+set_prop(init, vendor_fingerprint_prop)
