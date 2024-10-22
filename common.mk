@@ -214,7 +214,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.supports_background_blur=1 \
     ro.sf.blurs_are_expensive=1
-
+    
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
@@ -304,6 +304,18 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libstagefright_omx.vendor \
     libstagefright_softomx_plugin.vendor
+
+# Dolby
+PRODUCT_PACKAGES += \
+    XiaomiDolby
+
+# Dolby media configs
+PRODUCT_PACKAGES += \
+    media_codecs_dolby_audio.xml
+
+# Dolby VNDK libs
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
