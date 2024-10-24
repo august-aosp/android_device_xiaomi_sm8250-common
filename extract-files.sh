@@ -71,7 +71,8 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i "/seclabel u:r:mi_thermald:s0/d" "${2}"
             ;;
-        vendor/lib64/libwvhidl.so)
+        vendor/lib64/libwvhidl.so \
+        |vendor/lib64/mediadrm/libwvdrmengine.so)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
             ;;
