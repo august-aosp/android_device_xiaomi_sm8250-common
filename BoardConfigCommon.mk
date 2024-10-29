@@ -107,6 +107,10 @@ TARGET_KERNEL_CLANG_VERSION := r547379
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8250
 TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig vendor/xiaomi/sm8250-common.config
 
+# Kernel Clang Flags
+KERNEL_CC := CC=clang
+override KERNEL_TOOLCHAIN_PREFIX_arm := arm-linux-android-
+
 # Userfaultfd GC
 OVERRIDE_ENABLE_UFFD_GC := true
 
