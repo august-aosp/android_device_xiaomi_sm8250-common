@@ -224,7 +224,7 @@ SOONG_CONFIG_PLATFORM_ROOTDIR_PLATFORM_TYPE := kona
 endif
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2024-06-01
+VENDOR_SECURITY_PATCH := 2024-09-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
