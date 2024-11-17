@@ -118,7 +118,6 @@ vendor/lib64/vendor.qti.data.factory@2.2.so|2f56131f4b389f5e39774dd1ff67e6a6fcf9
 vendor/lib64/vendor.qti.data.factory@2.3.so|56eaf89dd4f519a3481511f4aade363f7b972efc
 vendor/lib64/vendor.qti.data.mwqem@1.0.so|3a391a097a0f209e97c649afeea3deb0dac1b243
 vendor/lib64/vendor.qti.data.slm@1.0.so|9fcde74b0484c28ce63f26f0e1be5ac874bbbbb3
-vendor/lib64/vendor.qti.hardware.cacert@1.0.so|f8f65b093fe367ffe0a8f23d7c7ff88ec09b80c5
 vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so|a3ae878fdd7660bf600535ffffe1fccabc974f4a
 vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so|0848be382ca968df54fc743fd7e0f0e39cc2f556
 vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so|94729e43c883f365e48d359bc2d7aa31690f057d
@@ -614,7 +613,6 @@ vendor/lib64/deviceInfoServiceModule.so|8776c71794ac41127ca2ee3dcb07a3a0ea9b8daa
 vendor/lib64/libconfigdb.so|345cc0700d074cf29bb6b501b6f104973037bf6b
 vendor/lib64/liblqe.so|bc846b01b383c83cb3723cd5912ad0a46cf5a5a8
 vendor/lib64/libmdmdetect.so|facfd579c6b83d4b8877b537d3815d268d3126e4
-vendor/lib64/libminkdescriptor.so|7237570df0118124564a85a34a387e9cba7e3cd3
 vendor/lib64/libnetmgr.so|47e91f0d613bd071ade741e52ae302644b0caab1
 vendor/lib64/libnetmgr_common.so|d38a3ee454e61fb6172eaa3a716f3ba6beab43bb
 vendor/lib64/libnetmgr_nr_fusion.so|a36e20e46d85fbe157f1b3464183496dc8f696dd
