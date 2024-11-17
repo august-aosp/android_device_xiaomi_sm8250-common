@@ -526,6 +526,7 @@ vendor/bin/qmipriod|c6587b3660ef8c8dcf65df799f825ea5127e2251
 vendor/etc/init/qmipriod.rc|94500dd5dc514fbb506ad8259a69ca57f4db72d6
 vendor/etc/seccomp_policy/qti-systemd.policy|40bf52fb50a94eb8325beefe1927d9ba155fb02a
 vendor/etc/sec_config|38ed44170badad7ae9a05f53223e1addf8780083
+vendor/lib/libdiag.so|73192b2b056f90320e43735298708c9984c60849
 vendor/lib64/libdiag.so|26ce185d0b8ce4e05ca07668d57880d00483b88e
 vendor/lib64/libdsi_netctrl.so|ea49da2e814ac1d7883ff633b0c587ece2ab2c9e
 vendor/lib64/libdsutils.so|e6995d2a997bcdcb758d10ac62f3c3845525d722
