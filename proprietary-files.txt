@@ -258,7 +258,6 @@ vendor/lib/libC2D2.so|1c89e545a5dabc94d27db32031594a792d91d6fd
 vendor/lib/libCB.so|7cc1c0523ce4187559ac260a9c05c9c183e59742
 vendor/lib/libOpenCL.so|d5642e23207996dbbc13273927127ecf04fced53
 vendor/lib/libVkLayer_q3dtools.so|fdd571695a749ac0ed92990504b1fdd50688874c
-vendor/lib/libadreno_app_profiles.so|133f073d37100ef0e9a5ea004e51142e24cdae6e
 vendor/lib/libadreno_utils.so|57411f42a5426334c8410a2ed6674c0634aaa7f4
 vendor/lib/libc2d30_bltlib.so|d7fa7e3bebe7363a34d1757639ae19cbd8287670
 vendor/lib/libgpudataproducer.so|a0313e0467055f848763dafc1ea9cae82e3b81a2
@@ -277,7 +276,6 @@ vendor/lib64/libC2D2.so|0b4aa67ef7e86df61a1bfd7dfd4680e0f0d7104c
 vendor/lib64/libCB.so|8b3e3e3e8e9d766c5ab7acb17635d7c90d51d6cd
 vendor/lib64/libOpenCL.so|76d6d5f9e89d896665fdd06cbede3e21c92c8068
 vendor/lib64/libVkLayer_q3dtools.so|7e3131cdaaefdcde518fccc1de49fe06653b9b73
-vendor/lib64/libadreno_app_profiles.so|cf9df8bdd5812847e3223c4852e9783af7aae784
 vendor/lib64/libadreno_utils.so|e41f005a2d428e59743352bbc14c2fb3c088dde1
 vendor/lib64/libc2d30_bltlib.so|87f3a78b5af703c546400b2cfee4a69782e7343b
 vendor/lib64/libgpudataproducer.so|0761bed6dbefc59d1ed77e7a3804e70944854689
@@ -542,6 +540,7 @@ vendor/lib64/libqmi_client_qmux.so|b2cbf5cc7012838cde578f1f5e555efa1cbaf1c0
 vendor/lib64/libqmi_common_so.so|e94d184621199532b2cc09ff711aaaeb5b463dd1
 vendor/lib64/libqmi_csi.so|b3e04882d85de1f6a022107489a498985dd8c48a
 vendor/lib64/libqmi_encdec.so|ff9a6ea2e08036e83b9089e32afda0d19cbe08bd
+vendor/lib64/libqmi_legacy.so|03289e1b13333d96d2b8c118a541189b4a4d840f
 vendor/lib64/libqmiservices.so|050011bdba72473f64cc245bda6b1911856ad3c5
 
 # RIL - from LA.UM.9.12.r1-14200.02-SMxx50.QSSI12.0
