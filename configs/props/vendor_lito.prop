@@ -208,4 +208,4 @@ rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.com.android.dataroaming=false
 ro.hardware.wlan.chip=39xx
 ro.hardware.wlan.mimo=1
-ro.telephony.default_network=33,33
+ro.telephony.default_network=26,26
