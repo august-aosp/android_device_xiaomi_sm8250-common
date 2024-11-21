@@ -262,7 +262,9 @@ SPAMMY_LOG_TAGS := \
     CCodecBuffers \
     CCodecConfig \
     Codec2Client \
-    tftp_server
+    tftp_server \
+    vendor.qti.bluetooth@1.0-ibs_handler \
+    vendor.qti.bluetooth@1.0-wake_lock
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_VENDOR_PROPERTIES += \
