@@ -62,7 +62,7 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/media_codecs_kona.xml': blob_fixup()
         .regex_replace('.+media_codecs_dolby_audio.+\n', ''),
     'system_ext/lib64/libwfdservice.so': blob_fixup()
-        .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V3-cpp.so'),
+        .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V4-cpp.so'),
     'vendor/etc/init/init.mi_thermald.rc': blob_fixup()
         .regex_replace('.+seclabel u:r:mi_thermald:s0\n', ''),
     ('vendor/lib64/libwvhidl.so', 'vendor/lib64/mediadrm/libwvdrmengine.so'): blob_fixup()
