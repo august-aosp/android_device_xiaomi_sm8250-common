@@ -66,6 +66,8 @@ blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/libwfdnative.so': blob_fixup()
         .add_needed('libinput_shim.so')
         .add_needed('libbinder_shim.so'),
+    'system_ext/lib64/libwfdmmsrc_system.so': blob_fixup()
+        .add_needed('libgui_shim.so'),
     'vendor/etc/init/init.mi_thermald.rc': blob_fixup()
         .regex_replace('.+seclabel u:r:mi_thermald:s0\n', ''),
     ('vendor/lib64/libwvhidl.so', 'vendor/lib64/mediadrm/libwvdrmengine.so'): blob_fixup()
