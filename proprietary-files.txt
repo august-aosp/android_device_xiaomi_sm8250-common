@@ -414,7 +414,6 @@ vendor/lib64/lib-rtpsl.so|1227c8588097abae1a6c07201fce2c0bb6d08769
 vendor/lib64/lib-siputility.so|4b9cf2544528ba2c0044b801998c82ac424b4040
 vendor/lib64/lib-uceservice.so|b94e7c3c17c7439106b6c92ec6de68892e89699a
 vendor/lib64/librcc.so|790cc7cb114c4846982867cf8518c5aeb5dc6933
-vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|681980a941922a8e18acfb82ff8c26fe3184ee57
 vendor/lib64/vendor.qti.hardware.data.lce@1.0.so|3f97c872f50fd2efd4b4b35d414f216144ceb57e
 vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so|27bc08d2b28f24f0e165da9c1d8dbe0be812ddd1
 vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so|967663dc16dac7fb62d37f86ddf3e847aab0d795
@@ -546,7 +545,6 @@ system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad99
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|a7e114ea1e6909685ce49717a2b5b66d8275d419
 system_ext/framework/qcrilhook.jar|da67e8893aadf3e8b1c9cb1ca82a469c6062575b
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|0acedaf8b03bf0f7ba45b76d6e563795498f92fd
-vendor/app/IWlanService/IWlanService.apk|7b857a7efe66fb2519874e70a58d71eee72e92e9
 vendor/bin/hw/qcrild|34ed5cea445577caa24385185cdb28881135972d
 vendor/bin/ATFWD-daemon|94af1767c77ed9835cbb66b0ba729b71e0044e1a
 vendor/bin/adpl|09666fa77584b1571cf0d9d407bd022cda43d237
