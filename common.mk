@@ -213,6 +213,15 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.supports_background_blur=1 \
     ro.sf.blurs_are_expensive=1
 
+# Dolby
+PRODUCT_PACKAGES += \
+    XiaomiDolby
+
+# Dolby media configs
+PRODUCT_PACKAGES += \
+    media_codecs_dolby_audio.xml \
+    media_codecs_vendor_audio.xml
+    
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey

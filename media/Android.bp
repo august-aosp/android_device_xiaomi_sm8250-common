@@ -21,3 +21,15 @@ prebuilt_etc {
     src: "video_system_specs.json",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "media_codecs_dolby_audio.xml",
+    src: "media_codecs_dolby_audio.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "media_codecs_vendor_audio.xml",
+    src: "media_codecs_vendor_audio.xml",
+    vendor: true,
+}
