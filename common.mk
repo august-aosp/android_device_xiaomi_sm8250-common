@@ -221,7 +221,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     media_codecs_dolby_audio.xml \
     media_codecs_vendor_audio.xml
-    
+
+# Dolby VNDK libs
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
