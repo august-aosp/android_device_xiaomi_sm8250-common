@@ -307,7 +307,7 @@
                 <route type="mix" sink="fast input"
                        sources="Built-In Mic,Built-In Back Mic,BT SCO Headset Mic,Wired Headset Mic"/>
                 <route type="mix" sink="hotword input"
-                       sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,USB Device In,USB Headset In"/>
+                       sources="Built-In Mic,Built-In Back Mic,BT SCO Headset Mic,Wired Headset Mic"/>
                 <route type="mix" sink="quad mic"
                        sources="Built-In Mic,Built-In Back Mic,BT SCO Headset Mic,Wired Headset Mic"/>
             </routes>
