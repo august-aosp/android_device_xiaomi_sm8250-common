@@ -306,4 +306,6 @@ xiaomi_kona_rootdir_prebuilt_etc {
         },
     },
     vendor: true,
+    ramdisk_available: true,
+    vendor_ramdisk_available: true,
 }
