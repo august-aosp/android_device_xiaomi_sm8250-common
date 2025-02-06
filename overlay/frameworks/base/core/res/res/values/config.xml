@@ -308,5 +308,7 @@
     <bool name="config_telephony5gNonStandalone">true</bool>
     
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
-    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/bms/fastcharge_mode</string>
+    <string name="config_oemFastChargerStatusPaths" translatable="false">
+        <item>/sys/class/power_supply/bms/fastcharge_mode;1</item>
+    </string>
 </resources>
