@@ -61,16 +61,6 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     'vendor/etc/media_codecs_kona.xml': blob_fixup()
         .regex_replace('.+media_codecs_dolby_audio.+\n', ''),
-    (
-        'vendor/lib/libstagefright_soft_ac4dec.so',
-        'vendor/lib/libstagefright_soft_ddpdec.so',
-        'vendor/lib/libstagefrightdolby.so',
-        'vendor/lib64/libdlbdsservice.so',
-        'vendor/lib64/libstagefright_soft_ac4dec.so',
-        'vendor/lib64/libstagefright_soft_ddpdec.so',
-        'vendor/lib64/libstagefrightdolby.so',
-    ): blob_fixup()
-        .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so'),
     'system_ext/lib64/libwfdservice.so': blob_fixup()
         .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V4-cpp.so'),
     'system_ext/lib64/libwfdnative.so': blob_fixup()
