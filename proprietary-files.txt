@@ -244,7 +244,6 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # Graphics (Adreno) - from Meta Quest 3 819.0.2
 vendor/lib64/libkcl.so|8d13c5ce933eb2ac02afc22c9b2f3c2ebd62c435
-vendor/lib64/libadreno_app_profiles.so|f1ff87d23ec9a41bb40f3d3bbe62b1a2557e3ce7
 vendor/lib64/libgame_enhance.so|b585d4aa700a807c8209b79b0360eb010cd958a3
 vendor/lib64/libllvm-qgl.so|7a9402345d630f4f462bbf387e26388ebedf891e
 vendor/lib64/libkernelmanager.so|e89aab3277d7a9f8e4c2998fc2ad19ef63f8bafa
@@ -263,7 +262,6 @@ vendor/lib64/libOpenCL.so|3a75415c2b091c55632d03ec993e29910f982ae4
 vendor/lib64/libgpudataproducer.so|627ff3489fd92aa6323e736e2333baa93fcfda5b
 vendor/lib64/libllvm-glnext.so|f1eed87c0858b048c146826a02f67d979537c813
 vendor/lib/libkcl.so|77be1922706c5466f8774ffebcc2a7b7afbd24cc
-vendor/lib/libadreno_app_profiles.so|8c642852e195c71698c1787a2db44e732e29004e
 vendor/lib/libllvm-qgl.so|2e064374b7133929f7875d6567c809f6b302b4d8
 vendor/lib/libkernelmanager.so|b63fc91b7249b6f0d7c459ed21278a90b32d5a42
 vendor/lib/libllvm-qcom.so|f868bae95bc51aca1c7565c6ed02c4ea6438e391
