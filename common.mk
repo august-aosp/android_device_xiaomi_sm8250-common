@@ -275,6 +275,11 @@ PRODUCT_PACKAGES += \
     media_codecs_performance_c2.xml \
     video_system_specs.json
 
+ifeq ($(TARGET_BOARD_PLATFORM), lito)
+PRODUCT_PACKAGES += \
+    media_codecs_vendor_audio.xml
+endif
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
