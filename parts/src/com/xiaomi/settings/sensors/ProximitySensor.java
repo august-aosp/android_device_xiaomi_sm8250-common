@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.sensors;
+package com.xiaomi.settings.sensors;
 
 import android.content.Context;
 import android.hardware.Sensor;
