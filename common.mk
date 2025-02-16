@@ -467,5 +467,8 @@ endif
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sm8250-common/sm8250-common-vendor.mk)
