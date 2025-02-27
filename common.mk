@@ -313,6 +313,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     media_codecs_dolby_audio.xml
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+
 # Dolby VNDK libs
 PRODUCT_PACKAGES += \
     libstagefright_foundation-v33
