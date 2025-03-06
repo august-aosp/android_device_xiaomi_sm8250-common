@@ -259,7 +259,8 @@ SPAMMY_LOG_TAGS := \
     CCodec \
     CCodecBuffers \
     CCodecConfig \
-    Codec2Client
+    Codec2Client \
+    tftp_server
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_VENDOR_PROPERTIES += \
