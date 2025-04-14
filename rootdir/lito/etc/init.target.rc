@@ -146,6 +146,9 @@ on boot
     write /sys/class/thermal/thermal_message/sconfig 0
 #palm_sensor
     chown system system /sys/class/touch/touch_dev/palm_sensor
+    # Set DT2W permissions
+    chmod 0660 /sys/touchpanel/double_tap
+    chown system system /sys/touchpanel/double_tap
 
 #Set the default voltage to 5v
     setprop persist.vendor.cp.taper_term_mv 5000

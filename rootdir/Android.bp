@@ -161,25 +161,6 @@ sh_binary {
 
 // Init configuration files
 platform_rootdir_prebuilt_etc {
-    name: "init.qcom.power.rc",
-    soong_config_variables: {
-        PLATFORM_TYPE: {
-            kona: {
-                src: "kona/etc/init.qcom.power.rc"
-            },
-            lito: {
-                src: "lito/etc/init.qcom.power.rc"
-            },
-            conditions_default: {
-                src: "kona/etc/init.qcom.power.rc"
-            },
-        },
-    },
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-platform_rootdir_prebuilt_etc {
     name: "init.qcom.rc",
     soong_config_variables: {
         PLATFORM_TYPE: {

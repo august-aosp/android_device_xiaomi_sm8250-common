@@ -30,9 +30,6 @@ persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
 
-# Chipset
-ro.soc.manufacturer=QTI
-
 # Crypto
 ro.crypto.allow_encrypt_override=true
 ro.crypto.dm_default_key.options_format.version=2
@@ -81,9 +78,6 @@ persist.sys.oem.otg_support=true
 
 # PASR
 vendor.power.pasr.enabled=false
-
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
 
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
