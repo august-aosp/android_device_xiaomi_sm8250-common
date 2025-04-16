@@ -464,6 +464,7 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Inherit common QTI components
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
 TARGET_COMMON_QTI_COMPONENTS := \
     perf \
 
