@@ -458,6 +458,7 @@ endif
 TARGET_EXCLUDE_QCOM_SEPOLICY := true
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
+    alarm \
     perf \
     wfd \
 
