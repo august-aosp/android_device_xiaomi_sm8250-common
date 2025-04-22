@@ -252,10 +252,6 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
 
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
 # Media configs
 PRODUCT_PACKAGES += \
     media_codecs_c2.xml \
@@ -392,25 +388,9 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
 # Telephony
 PRODUCT_PACKAGES += \
-    extphonelib \
-    extphonelib-product \
-    extphonelib.xml \
-    extphonelib_product.xml \
-    ims-ext-common \
-    ims_ext_common.xml \
-    qti-telephony-hidl-wrapper \
-    qti-telephony-hidl-wrapper-prd \
-    qti_telephony_hidl_wrapper.xml \
-    qti_telephony_hidl_wrapper_prd.xml \
-    qti-telephony-utils \
-    qti-telephony-utils-prd \
-    qti_telephony_utils.xml \
-    qti_telephony_utils_prd.xml \
-    telephony-ext \
     xiaomi-telephony-stub
 
 PRODUCT_BOOT_JARS += \
-    telephony-ext \
     xiaomi-telephony-stub
 
 # Thermal
@@ -455,7 +435,6 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Inherit common QTI components
-TARGET_EXCLUDE_QCOM_SEPOLICY := true
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
     alarm \
@@ -463,9 +442,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     keymaster \
     perf \
     wfd \
-
-$(call inherit-product, device/qcom/common/common.mk)
-include vendor/qcom/opensource/core-utils/build/utils.mk
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sm8250-common/sm8250-common-vendor.mk)
