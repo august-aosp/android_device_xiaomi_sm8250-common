@@ -29,6 +29,7 @@ namespace_imports = [
     "vendor/qcom/opensource/dataservices",
     "vendor/qcom/opensource/display",
     "vendor/qcom/common/vendor/adreno-r",
+    "vendor/qcom/common/vendor/keymaster",
 ]
 
 

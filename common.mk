@@ -460,6 +460,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
     alarm \
     av \
+    keymaster \
     perf \
     wfd \
 

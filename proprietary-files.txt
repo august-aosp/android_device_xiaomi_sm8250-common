@@ -260,11 +260,6 @@ vendor/etc/init/feature_enabler_client.rc
 # FM
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-
 # Graphics (Adreno firmware)
 vendor/firmware/a650_gmu.bin
 vendor/firmware/a650_sqe.fw
@@ -411,15 +406,6 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor
 
-# Keymaster
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
-vendor/lib64/libqtikeymaster4.so
-vendor/lib64/libspcom.so
-
 # Media (Codec2)
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
@@ -544,7 +530,6 @@ vendor/lib64/libnetmgr_rmnet_ext.so|d578326568f77befb1ddddbedd71721beb403b4d
 vendor/lib64/libnlnetmgr.so|e0a9fab48c39bd21ae661cbda8b3db1e3c061f0a
 vendor/lib64/libpdmapper.so|d6058c9ed9f54d7a8066bb1323785f2683e2b517
 vendor/lib64/libpdnotifier.so|b9c908f3f2ba51ee998b4f2be68192a6878f6969
-vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
 vendor/lib64/libqcrilFramework.so|9fea36745f9065178e0c5e58e446c84d286f43cf
 vendor/lib64/libqcrildatactl.so|4f9f08efb96944988d29b63503c0d9b1de3f0a0d
 vendor/lib64/libqrtr.so|61efce3800472e7aaa6671dca003bed63f2fb9ca
