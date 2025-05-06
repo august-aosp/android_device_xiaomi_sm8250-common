@@ -166,7 +166,7 @@ PRODUCT_PACKAGES += \
 
 # Consumer IR
 PRODUCT_PACKAGES += \
-    android.hardware.ir-service.example
+    android.hardware.ir-service.lineage
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
