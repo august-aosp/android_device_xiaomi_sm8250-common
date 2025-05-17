@@ -186,7 +186,6 @@ debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
 debug.sf.perf_fps_late_sf_phase_offset_ns=-5000000
 debug.sf.perf_fps_early_phase_offset_ns=-5000000
 debug.sf.perf_fps_early_gl_phase_offset_ns=-5000000
-ro.surface_flinger.support_kernel_idle_timer=true
 
 # Radio
 persist.radio.multisim.config=dsds
