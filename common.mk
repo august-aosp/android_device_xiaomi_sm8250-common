@@ -283,17 +283,7 @@ PRODUCT_COPY_FILES += \
 TARGET_SUPPORTS_OMX_SERVICE := false
 
 # Dolby
-PRODUCT_PACKAGES += \
-    XiaomiDolby
-
-# Dolby media configs
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
-    $(LOCAL_PATH)/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
-
-# Dolby VNDK libs
-PRODUCT_PACKAGES += \
-    libstagefright_foundation-v33
+$(call inherit-product, hardware/dolby/dolby.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
