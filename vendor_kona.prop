@@ -2,7 +2,7 @@
 aaudio.hw_burst_min_usec=2000
 aaudio.mmap_exclusive_policy=2
 aaudio.mmap_policy=2
-audio.offload.buffer.size.kb=256
+audio.offload.buffer.size.kb=32
 audio.offload.gapless.enabled=true
 persist.audio.button_jack.profile=volume
 persist.audio.button_jack.switch=0
@@ -43,6 +43,8 @@ ro.vendor.audio.voice.change.youme.support=true
 tunnel.audio.encode=true
 vendor.audio.adm.buffering.ms=2
 vendor.audio.capture.enforce_legacy_copp_sr=true
+vendor.audio.dolby.ds2.enabled=true
+vendor.audio.dolby.ds2.hardbypass=false
 vendor.audio.enable.mirrorlink=false
 vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
@@ -142,7 +144,6 @@ vendor.display.qdcm.disable_factory_mode=1
 vendor.display.qdcm.mode_combine=1
 vendor.display.use_layer_ext=0
 vendor.display.use_smooth_motion=0
-debug.sdm.support_writeback=0
 
 # Display Refresh Rate
 ro.vendor.display.touch.idle.enable?=true
@@ -158,6 +159,10 @@ debug.egl.hw=0
 debug.mdpcomp.logs=0
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.enable_gl_backpressure=0
+debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
+debug.sf.high_fps_early_phase_offset_ns=-4000000
+debug.sf.high_fps_late_app_phase_offset_ns=1000000
+debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
 debug.sf.hw=0
 debug.sf.auto_latch_unsignaled=false
 debug.sf.enable_transaction_tracing=false
@@ -167,7 +172,7 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
 vendor.gralloc.disable_ubwc=0
-ro.config.avoid_gfx_accel=true
+ro.surface_flinger.support_kernel_idle_timer=true
 
 # Radio
 persist.radio.NO_STAPA=1

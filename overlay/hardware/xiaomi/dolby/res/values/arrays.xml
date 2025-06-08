@@ -12,7 +12,6 @@
         <item>@string/dolby_profile_music</item>
         <item>@string/dolby_profile_game</item>
         <item>@string/dolby_profile_voice</item>
-        <item>@string/dolby_profile_custom</item>
     </string-array>
 
     <string-array name="dolby_profile_values">
@@ -21,6 +20,5 @@
         <item>2</item>
         <item>8</item>
         <item>9</item>
-        <item>3</item>
     </string-array>
 </resources>
