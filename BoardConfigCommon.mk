@@ -259,7 +259,12 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     $(COMMON_PATH)/configs/manifest/framework_compatibility_matrix.xml \
+=======
+    $(COMMON_PATH)/framework_compatibility_matrix.xml \
+    vendor/pixelage/config/device_framework_matrix.xml \
+>>>>>>> parent of ee375a4 (Merge branch 'yaap' into 15-pixelage)
 =======
     $(COMMON_PATH)/framework_compatibility_matrix.xml \
     vendor/pixelage/config/device_framework_matrix.xml \
