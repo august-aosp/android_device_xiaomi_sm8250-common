@@ -107,12 +107,9 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
-TARGET_KERNEL_CLANG_VERSION := r522817
+TARGET_KERNEL_CLANG_VERSION := r547379
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8250
 TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig vendor/xiaomi/sm8250-common.config
-
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 
 # Userfaultfd GC
 OVERRIDE_ENABLE_UFFD_GC := true
@@ -183,10 +180,10 @@ TARGET_BOARD_PLATFORM ?=kona
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # Properties
-TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
-TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
-TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor_$(TARGET_BOARD_PLATFORM).prop
+TARGET_ODM_PROP += $(COMMON_PATH)/configs/props/odm.prop
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/configs/props/system.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/configs/props/vendor.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/configs/props/vendor_$(TARGET_BOARD_PLATFORM).prop
 
 # Recovery
 ifeq ($(TARGET_IS_VAB),true)
@@ -256,19 +253,18 @@ endif
 
 # VINTF
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    $(COMMON_PATH)/framework_compatibility_matrix.xml \
-    vendor/pixelage/config/device_framework_matrix.xml \
+    $(COMMON_PATH)/configs/manifest/framework_compatibility_matrix.xml \
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
     hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml
 
 DEVICE_MANIFEST_FILE += \
-    $(COMMON_PATH)/manifest.xml \
-    $(COMMON_PATH)/manifest_xiaomi.xml
+    $(COMMON_PATH)/configs/manifest/manifest.xml \
+    $(COMMON_PATH)/configs/manifest/manifest_xiaomi.xml
 
-DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
+DEVICE_MATRIX_FILE += $(COMMON_PATH)/configs/manifest/compatibility_matrix.xml
 
 ODM_MANIFEST_SKUS += nfc
-ODM_MANIFEST_NFC_FILES := $(COMMON_PATH)/manifest_nfc.xml
+ODM_MANIFEST_NFC_FILES := $(COMMON_PATH)/configs/manifest/manifest_nfc.xml
 
 # Wi-Fi
 BOARD_WLAN_DEVICE := qcwcn
