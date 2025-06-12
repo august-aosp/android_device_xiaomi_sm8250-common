@@ -286,11 +286,15 @@ PRODUCT_COPY_FILES += \
 TARGET_SUPPORTS_OMX_SERVICE := false
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += \
+    CarrierConfigOverlayCommon \
+    FrameworkResOverlayCommon \
+    SettingsOverlayCommon \
+    SettingsProviderOverlayCommon \
+    SystemUIOverlayCommon \
+    TelephonyOverlayCommon
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
