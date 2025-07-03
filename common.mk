@@ -211,8 +211,7 @@ PRODUCT_PACKAGES += \
     gralloc.qcom
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.supports_background_blur=1 \
-    ro.sf.blurs_are_expensive=1
+    ro.surface_flinger.supports_background_blur=1
 
 # DRM
 PRODUCT_PACKAGES += \
