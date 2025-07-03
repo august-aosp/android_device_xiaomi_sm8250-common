@@ -210,9 +210,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     gralloc.qcom
 
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.supports_background_blur=1
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
