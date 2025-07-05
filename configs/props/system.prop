@@ -1,3 +1,6 @@
+# Battery
+ro.config.small_battery=true
+
 # Camera
 camera.disable_zsl_mode=true
 
