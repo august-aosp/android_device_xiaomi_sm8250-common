@@ -65,11 +65,12 @@ service secureelement-hal_1_2 /vendor/bin/hw/vendor.qti.secure_element@1.2-servi
     group system
     disabled
 
-service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     override
-    class early_hal
+    class hal
     user nfc
     group nfc
+    task_profiles ServiceCapacityLow
     disabled
 
 on boot && property:ro.boot.product.hardware.sku=nfc
