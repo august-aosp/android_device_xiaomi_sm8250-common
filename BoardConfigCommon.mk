@@ -107,9 +107,6 @@ TARGET_KERNEL_CLANG_VERSION := r547379
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8250
 TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig vendor/xiaomi/sm8250-common.config
 
-# Lineage Health
-TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
-
 # Userfaultfd GC
 OVERRIDE_ENABLE_UFFD_GC := true
 
