@@ -67,8 +67,6 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/etc/init/vendor.qti.media.c2@1.0-service.rc',
     ): blob_fixup()
         .regex_replace('writepid /dev/cpuset/foreground/tasks', 'task_profiles ProcessCapacityHigh'),
-    'vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc': blob_fixup()
-        .regex_replace('writepid /dev/stune/nnapi-hal/tasks', 'task_profiles NNApiHALPerformance'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
