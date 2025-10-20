@@ -279,6 +279,12 @@ vendor/lib/libOpenCL.so|d6337f9489508a47c070a6f4708f7ae6075859bd
 vendor/lib/libgpudataproducer.so|a79148a7622be2271b50ee9cd74d9a7b9aa349a4
 vendor/lib/libllvm-glnext.so|90ce0648b1741164676750b03a9a25f27ed5bb8d
 
+# Graphics (Adreno)
+vendor/lib/libC2D2.so
+vendor/lib/libc2d30_bltlib.so;DISABLE_CHECKELF
+vendor/lib64/libC2D2.so
+vendor/lib64/libc2d30_bltlib.so;DISABLE_CHECKELF
+
 # Graphics (Vulkan) - from Meta Quest 3 819.0.2
 vendor/lib/hw/vulkan.adreno.so|6350f609d9bddf36f0b9539e66896f19dbd63895
 vendor/lib64/hw/vulkan.adreno.so|7b9074211b36f429406371417805da4f61349490
