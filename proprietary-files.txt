@@ -248,7 +248,6 @@ vendor/lib64/libadreno_app_profiles.so|f1ff87d23ec9a41bb40f3d3bbe62b1a2557e3ce7
 vendor/lib64/libgame_enhance.so|b585d4aa700a807c8209b79b0360eb010cd958a3
 vendor/lib64/libllvm-qgl.so|7a9402345d630f4f462bbf387e26388ebedf891e
 vendor/lib64/libkernelmanager.so|e89aab3277d7a9f8e4c2998fc2ad19ef63f8bafa
-vendor/lib64/libdmabufheap.so|ec875db358bb573959d0be454b9c2ee755a2ecbf
 vendor/lib64/libllvm-qcom.so|a4adc3f8073e374e5aa0f644a23ab8a06a1a015e
 vendor/lib64/libadreno_utils.so|5939b9c2b5ed779087b623f2a076438f3d716f89
 vendor/lib64/libgsl.so|9c0e86fb1f347c8f6f3a1e7e48878ac80deb56b7
@@ -267,7 +266,6 @@ vendor/lib/libkcl.so|77be1922706c5466f8774ffebcc2a7b7afbd24cc
 vendor/lib/libadreno_app_profiles.so|8c642852e195c71698c1787a2db44e732e29004e
 vendor/lib/libllvm-qgl.so|2e064374b7133929f7875d6567c809f6b302b4d8
 vendor/lib/libkernelmanager.so|b63fc91b7249b6f0d7c459ed21278a90b32d5a42
-vendor/lib/libdmabufheap.so|b77fc818bd6a7950055d9d13335404a025cfab97
 vendor/lib/libllvm-qcom.so|f868bae95bc51aca1c7565c6ed02c4ea6438e391
 vendor/lib/libadreno_utils.so|dc710eb75db8eb778d59cabaa46a485092508213
 vendor/lib/libgsl.so|14d6e82ec78a0648383f648527d39f4510d1bcb0
