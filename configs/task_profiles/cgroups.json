@@ -20,6 +20,14 @@
       "Mode": "0755",
       "UID": "system",
       "GID": "system"
+    },
+    {
+      "Controller": "schedtune",
+      "Path": "/dev/stune",
+      "Mode": "0755",
+      "UID": "system",
+      "GID": "system",
+      "Optional": true
     }
   ],
   "Cgroups2": {
